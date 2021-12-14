@@ -1,0 +1,100 @@
+@import 'utilities';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("../img/forside3Artboard\ 1.png");
+    background-color: #cccccc;
+    background-size: 0vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.navigation {
+    padding-top: 30vh;
+    padding-bottom: 30vh;
+    padding-left: 30vh;
+    
+}
+
+#container {
+    height: 10vh;
+    width: 100%;
+        text-align: justify;
+    
+    
+}
+
+#mellemrum {
+    padding-bottom: 50px;
+    background-color: #862988;
+    height: 1000px;
+}
+
+nav ul {
+    text-decoration:  none;
+}
+
+nav ul li {
+    color:#E78C27;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    transition-duration: 0.5s; 
+    text-decoration:  none;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+#trapholt:hover {
+    color:#0C4C8A;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#udstillingen:hover {
+    color:#5587A2;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#aktiviteter:hover {
+    color:#F6D258;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+ 
+}
+
+#information:hover {
+    color:#88B14B;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#cafe:hover {
+    color:#EF562D;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#webshop:hover {
+    color:#EFCEC5;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+    
+}

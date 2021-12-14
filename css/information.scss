@@ -1,0 +1,241 @@
+@import 'utilities';
+
+body {
+    background-image: url("../img/1x/BaggrundgrønArtboard\ 1.png");
+    background-repeat: repeat;}
+
+.headerboksinformation {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5%;
+}
+
+.headeråbning {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1.5%;
+    margin-bottom: 1.5%;
+    font-size: 34;
+    font-family: 'Oswald', sans-serif;
+}
+
+#informationknap {
+    background-color:#88B14B7c ;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    position: absolute;
+    transform: translate(500%, 0);
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+
+}
+
+#informationknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    transform: translate(475%, 0);
+}
+
+#informationknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.åbningstekst {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#infobillede {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.åbningstiderboks {
+    position: absolute;
+    transform: translate(60%, -100.6%);
+    width: 300px;
+    height: 700px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+
+
+table {
+    display: flex;    
+    justify-content: center;      
+    border: none;     
+    font-family: 'Quicksand', sans-serif;    
+    line-height: 10px;
+    border-spacing: 75px;
+}
+
+#dage {
+    font-weight: bold;
+}
+
+.infopa {
+    margin-top: 1.5%;
+    width: 100%;
+    height: 550px;
+    background-color:rgba(255, 255, 255, 0.500);
+
+}
+
+.tekstboksåben {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    margin-left: 20%;
+    
+}
+
+.venstresæråben {
+    width: 50%;
+}
+
+.særåbenheader {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    margin-top:10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+    
+}
+
+.særåbentekst {
+    line-height: 60px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif; 
+
+}
+
+.højresæråben {
+    width: 50%;
+    
+}
+.helligåbenheader {
+    font-family: 'Oswald', sans-serif;
+    color: #000000;
+    margin-top:10%;
+    margin-bottom: 5%;
+    font-size: 30px;
+
+}
+
+.helligåbentekst {
+    line-height: 60px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#lampemedcirkler {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+
+.priserboks {
+    position: absolute;
+    transform: translate(250%, -100.6%);
+    width: 350px;
+    height: 700px;
+    background-color: #ffffff;
+    border-spacing: 10px;
+    padding:0;
+    margin:0;
+    
+}
+
+table {
+    display: flex;    
+    justify-content: center;         
+    font-family: 'Quicksand', sans-serif;    
+    line-height: 20px;
+    border-spacing: 75px;
+}
+
+#entre {
+    
+    font-weight: bold;
+    text-align: justify;
+    
+}
+
+#pris {
+    text-align: end;
+    justify-content: end; 
+     
+}
+
+
+.thetabledouble {
+    margin-top: 1.5%;
+    width: 100%;
+    height: auto;
+    background-color:rgba(255, 255, 255, 0.500); 
+    display: flex;
+    justify-content: center;
+
+}
+
+#infotabel {
+width: 40%;
+
+}
+
+
+#overskriftinfo {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+#underskriftinfo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+.højreinfoboks {
+    width: 20%;
+    margin-top:3%;
+}
+
+.højreinfotekst {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 1.5%;
+}
+
+
+.praktiskopaboks {
+    margin-top: 1.5%;
+    width: 100%;
+    height: auto;
+    background-color:rgba(255, 255, 255, 0.500);
+    display: flex;
+    justify-content: center;
+
+}

@@ -1,0 +1,200 @@
+
+@import 'utilities.scss';
+
+body {
+    background-color: #0C4C8A;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding-bottom: 1.5%;
+    z-index: 1;
+    background-image: url("../img/1x/BaggrundblåArtboard\ 1.png");
+    background-repeat: repeat;
+  }
+  
+  .trapholtmuseumbillede {
+    margin-top: 1.5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 100px;
+  }
+  
+  .trapholttekstboks {
+    background-color: rgba(255, 255, 255, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    height: 300px;
+    padding-top: 2%;
+    text-align: center;
+  }
+  
+  #omtrapholtknap {
+    background-color: #0C4C8A7c;
+       height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    position: absolute;
+    transform: translate(500%, 0);
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+  }
+  
+  #omtrapholtknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    -webkit-transform: translate(475%, 0);
+            transform: translate(475%, 0);
+  }
+  
+  #omtrapholtknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  .trapholttekst {
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    width: 60%;
+  }
+  
+  .trapholtboks2 {
+    margin-top: 1.5%;
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .trapholtvenstre {
+    width: 50%;
+    height: auto;
+    margin-left: 100px;
+  }
+  
+  .toptekst {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    z-index: 10000;
+  }
+  
+  .trapholtarkitektur {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .arkiteksturtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .vernerpantonmidheader {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .vernerpantonmidtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .praktiskheader {
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .prakrisktekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 10%;
+  }
+  
+  .handiogpark {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .headerbokshistorie {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .opahistorie {
+    margin-top: 1.5%;
+    height: auto;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  
+  .historievenstre {
+    padding-top: 100px;
+    margin-left: 100px;
+    width: 30%;
+  }
+  
+  .gustavlindbilledetekst {
+    padding-top: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    width: 250px;
+  }
+  
+  .historiehøjre {
+    padding-top: 100px;
+    width: 50%;
+  }
+  
+  .historietoptekst {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding-bottom: 120px;
+  }
+  
+  .historiebundtekst {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    margin-bottom: 10%;
+  }
+  

@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import 'utilities.scss';
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+/* --------- Events/Christine ---------- */
+* {
+    margin:0;
+    padding:0;
+    scroll-behavior:smooth;
+    width: auto;
+    max-width: 100%;
+    }
+
+body{
+    background-color: #F6D258;
+    z-index: -999;
+    background-image: url("../img/1x/BaggrundgulArtboard\ 1.png");
+    background-repeat: repeat;
+  }
+
+
+tbody {
+  width: 100%;
+}
+
+
+#eventknap {
+  background-color:#F6D2587c;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  position: absolute;
+  transform: translate(500%, 0);
+  border:none;
+}
+
+#eventknap:hover {
+  height: 35px;
+  width: 105px;
+  position: absolute;
+  transform: translate(475%, 0);
+}
+
+#eventknap a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+#indhold {
+  background: rgba(255, 255, 255, 0.50);
+    height: auto;
+    text-align: center;
+
+  }
+
+td {
+  line-height: 15px ;
+}
+
+#billet {
+  background-color:rgb(255, 255, 255);
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  color: rgb(0, 0, 0);
+  font-family: 'Oswald', sans-serif;
+  border: none;
+
+}
+
+#billet a {
+  text-decoration: none;
+}
+
+#tableevents {
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+border: none;
+font-family: 'Quicksand', sans-serif;
+border-spacing: 85px;
+
+}
+
+#pictable {
+  height: auto; 
+  width: auto; 
+  max-width: 500px;
+}
+
+#instatable {
+display: flex;
+  justify-content: center;
+  text-align: justify;
+border: none;
+font-family: 'Quicksand', sans-serif;
+border-spacing: 30px;
+margin-left: 10%;
+margin-right: 10%;
+}
+
+#vinder {
+  font-family: 'Oswald', sans-serif;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 100px;
+  flex-direction: row;
+  margin:10%;
+}
+
+#instagram {
+  background: rgba(255, 255, 255, 0.50);
+    height: auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 40%;
+    margin-right: auto;
+  }
+
+  #hashtags {
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10px;
+    flex-direction: row;
+    margin:10%;
+  }
+  #vinder {
+    font-family: 'Oswald', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+    flex-direction: row;
+    margin:2%;
+  }
+
+
+
+  

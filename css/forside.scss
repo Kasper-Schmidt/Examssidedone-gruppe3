@@ -1,0 +1,93 @@
+@import 'utilities';
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0px ;
+    padding:0px;
+}
+
+
+.container img {
+    width: auto;
+    height: 100%;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin:0px;
+    display: block;
+}
+
+.navigation {
+    position: absolute;
+    transform: translate(40%, -180%);
+    
+    
+}
+
+nav ul {
+    text-decoration:  none;
+}
+
+nav ul li {
+    color:rgb(204, 132, 23);
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 35px;
+    transition-duration: 0.5s; 
+    text-decoration:  none;
+    
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+#trapholt:hover {
+    color:#0C4C8A;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#udstillingen:hover {
+    color:#5587A2;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#aktiviteter:hover {
+    color:#F6D258;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+ 
+}
+
+#information:hover {
+    color:#88B14B;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#cafe:hover {
+    color:#EF562D;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+
+}
+
+#webshop:hover {
+    color:#EFCEC5;
+    font-size: 37px;
+    text-shadow: 2px 2px #444444;
+    
+}
+
+

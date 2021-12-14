@@ -1,0 +1,194 @@
+@import 'utilities';
+
+body {
+    background-color: #5587A2;
+    width: 100%;
+    height: auto;
+    margin:0;
+    background-image: url("../img/1x/BaggrundlysblåArtboard\ 1.png");
+    background-repeat: repeat;
+}
+
+#udstillingknap {
+    background-color:#5587A2;
+    height: 30px;
+    width: 100px;
+    border-radius: 50px 50px;
+    position: absolute;
+    transform: translate(500%, 0);
+    border: none;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+#udstillingknap:hover {
+    height: 35px;
+    width: 105px;
+    position: absolute;
+    transform: translate(475%, 0);
+}
+
+#udstillingknap a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.slideshows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mySlides {
+    display:none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.citatbaggrund {
+    background-color:rgba(255, 255, 255, 0.500);
+    background-color: rgba(255, 255, 255, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 0vh;
+    padding: 10%;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify; 
+}
+
+
+.vernersudstilling {
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.citattekst {
+    padding-top:10%;
+    color: #000000;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+
+.citattekst span {
+    font-weight: bold;
+    z-index:-1000;
+    margin-bottom: 100px;
+}
+
+.vernerpantonoverskrift {
+    background-color: #ffffff;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:30px;
+    margin-bottom: 30px;
+    
+}
+
+.headertekstverner {
+    color: #000000;
+    font-size:34px;
+    font-family: 'Oswald', sans-serif;
+  
+}
+
+.opaboks {
+    background-color:rgba(255, 255, 255, 0.500);
+    width: 100%;
+    height: auto;
+    display: flex;
+
+ 
+}
+
+.venstreboks {
+    width: 55%;
+    height: auto;
+    margin-left:138px;
+    margin-top:100px;
+  
+}
+
+.verneroverskrift {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    margin-bottom:25px;
+
+}
+
+.vernerbrødtekst1 {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.startenheadertekst {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom:10%;
+   
+}
+
+.startenbrødtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.modstandsheder {
+    color:#000000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin-bottom:25px;
+}
+
+.modstandbrødtekst {
+    color: #000;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 15%;
+}
+
+.højreboks {
+    width:45%;
+    height: 400px;
+    gap:40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top:100px;
+    padding-left: 75px;
+  
+}
+
+.højreboks img {
+    width: 300px;
+    height: 300px;
+
+}
+
+.vernerbilledeafsnit {
+    display: flex;
+    justify-content: center;
+    margin-top:10%;
+
+}

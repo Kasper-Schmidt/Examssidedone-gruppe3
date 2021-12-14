@@ -1,0 +1,601 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+/*font-family: 'Quicksand', sans-serif;*/
+/*font-family: 'Oswald', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.brødtekst {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.headerboks {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5%;
+}
+
+.headertekststor {
+  color: #000000;
+  font-size: 34px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.headertekst {
+  color: #000000;
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+}
+
+table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 15px;
+  border-spacing: 75px;
+}
+
+#dage {
+  font-weight: bold;
+}
+
+#entre {
+  font-weight: bold;
+  text-align: justify;
+}
+
+#pris {
+  text-align: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.thetabledouble {
+  margin-top: 1.5%;
+  width: 100%;
+  height: 650px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#infotabel {
+  width: 40%;
+}
+
+#overskriftinfo {
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+#underskriftinfo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.headeråbning {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  font-size: 34;
+  font-family: 'Oswald', sans-serif;
+}
+
+.åbningstekst {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.headerevents {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  margin-top: 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.uh2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 0vh;
+  padding: 8%;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: justify;
+}
+
+#tableh {
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  color: black;
+  text-decoration: underline;
+}
+
+#tableuh {
+  font-family: 'Oswald', sans-serif;
+  font-size: 19px;
+  color: #000000;
+}
+
+.uh3banner {
+  background-color: #ffffff;
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 2%;
+  margin-bottom: 30px;
+}
+
+.uh3 {
+  color: #000;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#studiekort {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-align: center;
+  padding-top: 100px;
+}
+
+#uhdesign {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-align: justify;
+  padding-top: 100px;
+}
+
+#designbr {
+  font-family: 'Oswald', sans-serif;
+  font-size: 28px;
+  text-align: justify;
+  padding-top: 100px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1.5%;
+}
+
+#footertablerow {
+  height: 5px;
+}
+
+#footertable {
+  border-spacing: 30px;
+}
+
+.gulfooter {
+  background-color: #F6D258;
+  width: 20%;
+  height: 500px;
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.opafooter {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 400px;
+  margin-top: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.orangefooter {
+  background-color: #FF8D0B;
+  width: 20%;
+  height: 500px;
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.rødfooter {
+  background-color: #EF562D;
+  width: 20%;
+  height: 500px;
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+#footertabletekst {
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#footertabletekstvenstre {
+  font-size: 15px;
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  text-justify: end;
+}
+
+.footertabletekstlinje {
+  font-size: 15px;
+  text-align: left;
+  padding-top: 10%;
+  padding-left: 5%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.blåfooter {
+  background-color: #5587A2;
+  width: 20%;
+  height: 500px;
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.grønfooter {
+  background-color: #88B14B;
+  width: 20%;
+  height: 500px;
+  font-size: 30px;
+  padding-top: 40px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.fa {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footerbillede {
+  margin-top: 1.5%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  background-image: url("../img/1x/BaggrundgrønArtboard 1.png");
+  background-repeat: repeat;
+}
+
+.headerboksinformation {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 1.5%;
+}
+
+.headeråbning {
+  background-color: #ffffff;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  font-size: 34;
+  font-family: 'Oswald', sans-serif;
+}
+
+#informationknap {
+  background-color: #88B14B7c;
+  height: 30px;
+  width: 100px;
+  border-radius: 50px 50px;
+  position: absolute;
+  -webkit-transform: translate(500%, 0);
+          transform: translate(500%, 0);
+  border: none;
+  font-size: 15px;
+  font-weight: normal;
+}
+
+#informationknap:hover {
+  height: 35px;
+  width: 105px;
+  position: absolute;
+  -webkit-transform: translate(475%, 0);
+          transform: translate(475%, 0);
+}
+
+#informationknap a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+}
+
+.åbningstekst {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+}
+
+#infobillede {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.åbningstiderboks {
+  position: absolute;
+  -webkit-transform: translate(60%, -100.6%);
+          transform: translate(60%, -100.6%);
+  width: 300px;
+  height: 700px;
+  background-color: #ffffff;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 10px;
+  border-spacing: 75px;
+}
+
+#dage {
+  font-weight: bold;
+}
+
+.infopa {
+  margin-top: 1.5%;
+  width: 100%;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.tekstboksåben {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  margin-left: 20%;
+}
+
+.venstresæråben {
+  width: 50%;
+}
+
+.særåbenheader {
+  font-family: 'Oswald', sans-serif;
+  color: #000000;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.særåbentekst {
+  line-height: 60px;
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.højresæråben {
+  width: 50%;
+}
+
+.helligåbenheader {
+  font-family: 'Oswald', sans-serif;
+  color: #000000;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  font-size: 30px;
+}
+
+.helligåbentekst {
+  line-height: 60px;
+  font-size: 20px;
+  color: #000000;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#lampemedcirkler {
+  width: 100%;
+  height: 700px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.priserboks {
+  position: absolute;
+  -webkit-transform: translate(250%, -100.6%);
+          transform: translate(250%, -100.6%);
+  width: 350px;
+  height: 700px;
+  background-color: #ffffff;
+  border-spacing: 10px;
+  padding: 0;
+  margin: 0;
+}
+
+table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 20px;
+  border-spacing: 75px;
+}
+
+#entre {
+  font-weight: bold;
+  text-align: justify;
+}
+
+#pris {
+  text-align: end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.thetabledouble {
+  margin-top: 1.5%;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#infotabel {
+  width: 40%;
+}
+
+#overskriftinfo {
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+#underskriftinfo {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #000000;
+}
+
+.højreinfoboks {
+  width: 20%;
+  margin-top: 3%;
+}
+
+.højreinfotekst {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  margin-top: 1.5%;
+}
+
+.praktiskopaboks {
+  margin-top: 1.5%;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=information.css.map */
