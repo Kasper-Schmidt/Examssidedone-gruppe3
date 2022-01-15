@@ -1,4 +1,7 @@
 @import 'utilities';
+@media only screen and (max-width: 550px){
+      width: 100%;
+    }
 
 *{
     margin:0;
@@ -18,9 +21,9 @@ body {
    }
 
 .navigation {
-    padding-top: 30vh;
-    padding-bottom: 30vh;
-    padding-left: 30vh;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    padding-left: 30%;
     
 }
 
