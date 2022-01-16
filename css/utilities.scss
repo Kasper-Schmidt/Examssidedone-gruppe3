@@ -230,21 +230,23 @@ width: 40%;
   
 }
 
+
+
 #footertablerow {
   height: 5px;
 }
 
 
 #footertable {
-  border-spacing: 1.5vw;
+  border-spacing: 30px;
 }
 
 
 .gulfooter {
   background-color:#F6D258 ;
   width: 20%;
-  height: 70%;
-  font-size: 2.5vw;
+  height: 500px;
+  font-size: 30px;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif; 
@@ -252,8 +254,8 @@ width: 40%;
 
 .opafooter {
   background-color: rgba(255, 255, 255, 0.5);
-  max-width: 100%;
-  height: 60vh;
+  width: 100%;
+  height: 400px;
   margin-top: 30px;
   font-family: 'Quicksand', sans-serif; 
   
@@ -262,7 +264,8 @@ width: 40%;
 .orangefooter {
   background-color:#FF8D0B ;
   width: 20%;
-  font-size: 2.5vw;
+  height: 500px;
+  font-size: 30px;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif; 
@@ -271,31 +274,28 @@ width: 40%;
 .rødfooter {
   background-color:#EF562D ;
   width: 20%;
-  height: 70%;
-  font-size: 2.5vw;
+  height: 500px;
+  font-size: 30px;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif; 
 }
 
 #footertabletekst {
-  font-size: 1.5vw;
-  line-height: 2.5vw;
+  font-size: 15px;
   text-align: left;
   font-family: 'Quicksand', sans-serif;
 }
 
 #footertabletekstvenstre {
-  font-size: 1.5vw;
-  line-height: 2.5vw;
+  font-size: 15px;
   text-align: left;
   font-family: 'Quicksand', sans-serif;
   text-justify: end;
 }
 
 .footertabletekstlinje {
-  font-size: 1.5vw;
-  line-height: 2.5vw;
+  font-size: 15px;
   text-align: left;
   padding-top: 10%;
   padding-left: 5%;
@@ -305,8 +305,8 @@ width: 40%;
 .blåfooter {
   background-color:#5587A2 ;
   width: 20%;
-  height: 70%;
-  font-size: 2.5vw;
+  height: 500px;
+  font-size: 30px;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif; 
@@ -315,8 +315,8 @@ width: 40%;
 .grønfooter {
   background-color:#88B14B ;
   width: 20%;
-  height: 20%;
-  font-size: 2.5vw;
+  height: 500px;
+  font-size: 30px;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif; 
