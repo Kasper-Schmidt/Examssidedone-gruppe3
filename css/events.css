@@ -233,14 +233,14 @@ table {
 }
 
 #footertable {
-  border-spacing: 30px;
+  border-spacing: 1.5vw;
 }
 
 .gulfooter {
   background-color: #F6D258;
   width: 20%;
-  height: 500px;
-  font-size: 30px;
+  height: 70%;
+  font-size: 2.5vw;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -248,8 +248,8 @@ table {
 
 .opafooter {
   background-color: rgba(255, 255, 255, 0.5);
-  width: 100%;
-  height: 400px;
+  max-width: 100%;
+  height: 60vh;
   margin-top: 30px;
   font-family: 'Quicksand', sans-serif;
 }
@@ -257,8 +257,7 @@ table {
 .orangefooter {
   background-color: #FF8D0B;
   width: 20%;
-  height: 500px;
-  font-size: 30px;
+  font-size: 2.5vw;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -267,28 +266,31 @@ table {
 .rødfooter {
   background-color: #EF562D;
   width: 20%;
-  height: 500px;
-  font-size: 30px;
+  height: 70%;
+  font-size: 2.5vw;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
 #footertabletekst {
-  font-size: 15px;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
   text-align: left;
   font-family: 'Quicksand', sans-serif;
 }
 
 #footertabletekstvenstre {
-  font-size: 15px;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
   text-align: left;
   font-family: 'Quicksand', sans-serif;
   text-justify: end;
 }
 
 .footertabletekstlinje {
-  font-size: 15px;
+  font-size: 1.5vw;
+  line-height: 2.5vw;
   text-align: left;
   padding-top: 10%;
   padding-left: 5%;
@@ -298,8 +300,8 @@ table {
 .blåfooter {
   background-color: #5587A2;
   width: 20%;
-  height: 500px;
-  font-size: 30px;
+  height: 70%;
+  font-size: 2.5vw;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -308,8 +310,8 @@ table {
 .grønfooter {
   background-color: #88B14B;
   width: 20%;
-  height: 500px;
-  font-size: 30px;
+  height: 20%;
+  font-size: 2.5vw;
   padding-top: 40px;
   text-align: center;
   font-family: 'Oswald', sans-serif;
@@ -421,7 +423,7 @@ td {
   text-align: justify;
   border: none;
   font-family: 'Quicksand', sans-serif;
-  border-spacing: 85px;
+  border-spacing: 2vw;
 }
 
 #pictable {
